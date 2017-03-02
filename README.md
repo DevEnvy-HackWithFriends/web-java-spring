@@ -9,8 +9,8 @@ DevEnvy is an implementation of Eclipse Che.
 Installation
 ------------
 
-# Install docker
-# Check out this git repository
+ * Install docker
+ * Check out this git repository
 
 Start DevEnvy
 -------------
