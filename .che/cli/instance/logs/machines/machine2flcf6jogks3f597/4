@@ -1,0 +1,49 @@
+[STDOUT] Listening for transport dt_socket at address: 4403
+[STDOUT] 2017-03-02 19:56:32,967[main]             [INFO ] [o.a.c.s.VersionLoggerListener 89]    - Server version:        Apache Tomcat/8.0.38
+[STDOUT] 2017-03-02 19:56:32,969[main]             [INFO ] [o.a.c.s.VersionLoggerListener 91]    - Server built:          Oct 6 2016 20:51:55 UTC
+[STDOUT] 2017-03-02 19:56:32,969[main]             [INFO ] [o.a.c.s.VersionLoggerListener 93]    - Server number:         8.0.38.0
+[STDOUT] 2017-03-02 19:56:32,969[main]             [INFO ] [o.a.c.s.VersionLoggerListener 95]    - OS Name:               Linux
+[STDOUT] 2017-03-02 19:56:32,972[main]             [INFO ] [o.a.c.s.VersionLoggerListener 97]    - OS Version:            4.9.12-moby
+[STDOUT] 2017-03-02 19:56:32,972[main]             [INFO ] [o.a.c.s.VersionLoggerListener 99]    - Architecture:          amd64
+[STDOUT] 2017-03-02 19:56:32,972[main]             [INFO ] [o.a.c.s.VersionLoggerListener 101]   - Java Home:             /opt/jdk1.8.0_45/jre
+[STDOUT] 2017-03-02 19:56:32,973[main]             [INFO ] [o.a.c.s.VersionLoggerListener 103]   - JVM Version:           1.8.0_45-b14
+[STDOUT] 2017-03-02 19:56:32,973[main]             [INFO ] [o.a.c.s.VersionLoggerListener 105]   - JVM Vendor:            Oracle Corporation
+[STDOUT] 2017-03-02 19:56:32,973[main]             [INFO ] [o.a.c.s.VersionLoggerListener 107]   - CATALINA_BASE:         /home/user/che/ws-agent
+[STDOUT] 2017-03-02 19:56:32,973[main]             [INFO ] [o.a.c.s.VersionLoggerListener 109]   - CATALINA_HOME:         /home/user/che/ws-agent
+[STDOUT] 2017-03-02 19:56:32,974[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.util.logging.config.file=/home/user/che/ws-agent/conf/logging.properties
+[STDOUT] 2017-03-02 19:56:32,974[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[STDOUT] 2017-03-02 19:56:32,975[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Xms256m
+[STDOUT] 2017-03-02 19:56:32,975[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Xmx2048m
+[STDOUT] 2017-03-02 19:56:32,975[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.security.egd=file:/dev/./urandom
+[STDOUT] 2017-03-02 19:56:32,975[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dche.logs.dir=/home/user/che/ws-agent/logs
+[STDOUT] 2017-03-02 19:56:32,975[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+[STDOUT] 2017-03-02 19:56:32,975[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+[STDOUT] 2017-03-02 19:56:32,976[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -agentlib:jdwp=transport=dt_socket,address=4403,server=y,suspend=n
+[STDOUT] 2017-03-02 19:56:32,976[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcom.sun.management.jmxremote
+[STDOUT] 2017-03-02 19:56:32,976[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+[STDOUT] 2017-03-02 19:56:32,976[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+[STDOUT] 2017-03-02 19:56:32,977[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dche.local.conf.dir=/mnt/che/conf
+[STDOUT] 2017-03-02 19:56:32,977[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.endorsed.dirs=/home/user/che/ws-agent/endorsed
+[STDOUT] 2017-03-02 19:56:32,977[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcatalina.base=/home/user/che/ws-agent
+[STDOUT] 2017-03-02 19:56:32,977[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcatalina.home=/home/user/che/ws-agent
+[STDOUT] 2017-03-02 19:56:32,977[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.io.tmpdir=/home/user/che/ws-agent/temp
+[STDOUT] 2017-03-02 19:56:33,100[main]             [INFO ] [o.a.c.http11.Http11NioProtocol 443]  - Initializing ProtocolHandler ["http-nio-4401"]
+[STDOUT] 2017-03-02 19:56:33,115[main]             [INFO ] [o.a.t.util.net.NioSelectorPool 72]   - Using a shared selector for servlet write/read
+[STDOUT] 2017-03-02 19:56:33,118[main]             [INFO ] [o.a.catalina.startup.Catalina 591]   - Initialization processed in 352 ms
+[STDOUT] 2017-03-02 19:56:33,207[main]             [INFO ] [c.m.JmxRemoteLifecycleListener 332]  - The JMX Remote Listener has configured the registry on port 32002 and the server on port 32102 for the Platform server
+[STDOUT] 2017-03-02 19:56:33,208[main]             [INFO ] [o.a.c.core.StandardService 435]      - Starting service Catalina
+[STDOUT] 2017-03-02 19:56:33,208[main]             [INFO ] [o.a.c.core.StandardEngine 259]       - Starting Servlet Engine: Apache Tomcat/8.0.38
+[STDOUT] 2017-03-02 19:56:33,266[ost-startStop-1]  [INFO ] [o.a.c.startup.HostConfig 911]        - Deploying web application archive /home/user/che/ws-agent/webapps/ROOT.war
+[STDOUT] 2017-03-02 19:56:40,025[ost-startStop-1]  [INFO ] [o.e.c.a.p.s.WorkspaceHolder 59]      - Workspace ID: workspacevt1gx76l6tn90td2
+[STDOUT] 2017-03-02 19:56:40,026[ost-startStop-1]  [INFO ] [o.e.c.a.p.s.WorkspaceHolder 60]      - API Endpoint: http://che-host:8080/wsmaster/api
+[STDOUT] 2017-03-02 19:56:40,026[ost-startStop-1]  [INFO ] [o.e.c.a.p.s.WorkspaceHolder 61]      - User Token  : true
+[STDOUT] 2017-03-02 19:56:40,885[s polled Thread]  [INFO ] [o.e.c.p.m.server.rmi.RmiClient 130]  - Port/Name:21130/MavenRemoteServerImplda6e1d6e
+[STDOUT] 
+[STDOUT] Thu Mar 02 19:56:43 UTC 2017 - [localhost-startStop-1] Product-specified preferences called before plugin is started
+[STDOUT] 2017-03-02 19:56:43,300[ost-startStop-1]  [INFO ] [o.a.c.startup.HostConfig 975]        - Deployment of web application archive /home/user/che/ws-agent/webapps/ROOT.war has finished in 10,034 ms
+[STDOUT] 2017-03-02 19:56:43,308[main]             [INFO ] [o.a.c.http11.Http11NioProtocol 488]  - Starting ProtocolHandler ["http-nio-4401"]
+[STDOUT] 2017-03-02 19:56:43,317[main]             [INFO ] [o.a.catalina.startup.Catalina 642]   - Server startup in 10198 ms
+[STDOUT] 2017-03-02 19:56:43,564[nio-4401-exec-2]  [WARN ] [o.e.c.impl.ContainerResponse 93]     - Client has aborted connection. Response writing omitted.
+[STDOUT] 2017-03-02 19:56:43,567[nio-4401-exec-3]  [WARN ] [o.e.c.impl.ContainerResponse 93]     - Client has aborted connection. Response writing omitted.
+[STDOUT] 2017-03-02 19:57:11,226[nio-4401-exec-3]  [INFO ] [a.c.w.i.BasicWebSocketEndpoint 49]   - Web socket session opened
+[STDOUT] 2017-03-02 19:57:11,234[nio-4401-exec-3]  [INFO ] [a.c.w.i.BasicWebSocketEndpoint 50]   - Endpoint: 1855938538
