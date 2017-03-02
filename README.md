@@ -1,25 +1,34 @@
-# web-spring-java-simple
-A simple Spring app
+Hack With Friends - DevEnvy
+===========================
 
-# Developer Workspace
+Introduction
+------------
 
-[![Contribute](http://beta.codenvy.com/factory/resources/codenvy-contribute.svg)](http://beta.codenvy.com/f?id=hrh4c8gw8tlehd0i)
+DevEnvy is an implementation of Eclipse Che.
 
-# Stack to use
+Installation
+------------
 
-FROM [codenvy/ubuntu_jdk8](https://hub.docker.com/r/codenvy/ubuntu_jdk8/)
+# Install docker
+# Check out this git repository
 
-or
+Start DevEnvy
+-------------
+   
+Run the following command:
 
+    ./cheUp.sh
 
-FROM [codenvy/debian_jdk8](https://hub.docker.com/r/codenvy/debian_jdk8/)
+Check Status
+------------
 
-# How to run
+Run the following command:
 
-| #       | Description           | Command  |
-| :------------- |:-------------| :-----|
-| 1      | Build and copy war | `mvn -f ${current.project.path} clean install && cp ${current.project.path}/target/*.war $TOMCAT_HOME/webapps/ROOT.war` |
-| 2      | Run Tomcat      |   `$TOMCAT_HOME/bin/catalina.sh run` |
-| 3 | Stop Tomcat      |    `$TOMCAT_HOME/bin/catalina.sh stop` |
-| 4 | Tomcat Debug Mode      |    `$TOMCAT_HOME/bin/catalina.sh jpda run` |
+    ./cheStatus.sh
 
+Stop DevEnvy
+------------
+
+Run the following command:
+
+    ./cheDown.sh
