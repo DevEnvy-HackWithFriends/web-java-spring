@@ -27,7 +27,7 @@
       "attributes": {},
       "type": "maven",
       "source": {
-        "location": "https://github.com/che-samples/web-java-spring.git",
+        "location": "https://github.com/DevEnvy-HackWithFriends/web-java-spring.git",
         "type": "git",
         "parameters": {}
       },
@@ -46,6 +46,12 @@
       "name": "build",
       "attributes": {},
       "type": "mvn"
+    },
+    {
+      "commandLine": "git clone https://github.com/DevEnvy-HackWithFriends/web-java-spring.git",
+      "name": "checkout",
+      "attributes": {},
+      "type": "custom"
     },
     {
       "commandLine": "mvn -f /projects/web-java-spring clean install && cp /projects/web-java-spring/target/*.war $TOMCAT_HOME/webapps/ROOT.war",
