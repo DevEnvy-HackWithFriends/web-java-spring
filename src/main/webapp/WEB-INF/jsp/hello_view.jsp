@@ -17,5 +17,7 @@
           }
       %>
     </div>
+    <h2>Java spring web</h2>
+    <img src="/devenvy_logo_500.png">
   </body>
 </html>
