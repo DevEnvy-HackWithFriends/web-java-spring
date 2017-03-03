@@ -28,14 +28,14 @@ Run the following command:
 Check Status
 ------------
 
-Run the following command:
+Che needs to be off to run cheUp.sh. Check the status of Che by running the following command:
 
     ./cheStatus.sh
 
 Stop DevEnvy
 ------------
 
-Run the following command:
+Che needs to be off to run cheUp.sh. To shut down Che, run the following command:
 
     ./cheDown.sh
 
