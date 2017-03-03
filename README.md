@@ -16,6 +16,7 @@ Start DevEnvy
 -------------
    
 If on a Windows computer, start the Docker Quickstart terminal. Use this terminal to navigate to the web-java-spring folder. Run the following command:
+
 If on a Mac, use Terminal to navigate to web-java-spring folder. Run the following command:
    
    ```
