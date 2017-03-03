@@ -15,6 +15,12 @@ Installation
 Start DevEnvy
 -------------
    
+Navigate to web-java-spring folder
+   
+   ```
+   cd web-java-spring/
+   ```
+
 Run the following command:
 
     ./cheUp.sh
@@ -32,3 +38,10 @@ Stop DevEnvy
 Run the following command:
 
     ./cheDown.sh
+
+Known Error
+------------
+The following error may flag. The Che instance will still run.
+   ```
+   ERROR: (che dir): Unable to import project web-java-spring. Error is : [object Object]
+   ```
